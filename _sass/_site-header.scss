@@ -27,16 +27,9 @@
       align-self: center;
       @include media-query($on-palm) {
         font-size: 1.1em;
+        line-height: 1.4;
       }
   }
-  // a {
-  //   color: $text-color;
-  //   &:hover {
-  //     color: $brand-color;
-  //     text-decoration: underline;
-  //     transition: color 0.2s ease-out;
-  //   }
-  // }
   ul {
     margin:0;
     align-self: center;
@@ -46,13 +39,16 @@
     display: inline-block;
     align-self: center;
     margin-right: 1.3em;
+    @include media-query($on-palm) {
+      margin-right: 1em;
+    }
   }
   @include media-query($on-palm) {
     display: flex;
     flex-direction: column;
     li {
       font-size: 0.7em;
-      margin-right: 1em;
+      margin-right: 0.7em;
     }
   }
 }
