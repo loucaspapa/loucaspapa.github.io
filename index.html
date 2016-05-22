@@ -1,0 +1,38 @@
+---
+layout: default
+title: Work
+---
+
+<div class="home">
+
+	<div class="wrapper">
+
+		<header class="site-banner" role="banner">
+			<h1 class="">{{ site.subtitle }}</h1>
+			<p class="lead">{{ site.description }}</p>
+		</header>
+
+		<section class="selected-work">
+			<ul class="work-list">
+				<h4 class="list-heading">Selected work</h4>
+				{% assign sorted = (site.work | sort: 'date') | reverse %}
+				{% for work in sorted %}
+					<li class="list-item">
+						<span class="list-image">
+							<a class="" href="{{ work.url | prepend: site.baseurl }}">
+								<img src="{{ work.image-thumbnail }}" alt="">
+							</a>
+						</span>
+						<p class="list-description">
+							{{ work.excerpt }}
+							<a href="{{ work.url | prepend: site.baseurl }}">read more</a>
+						</p>
+					</li>
+				{% endfor %}
+			</ul>
+	    <p>More: <a href="/about.html">About</a>, <a href="/posts.html">Posts</a></p>
+		</section>
+
+	</div>
+
+</div>
