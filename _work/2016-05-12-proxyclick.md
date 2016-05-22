@@ -18,38 +18,38 @@ Proxyclick’s customers can try the product for 30 days before deciding whether
 
 You don’t get a second chance to make a first impression. This is why together with Proxyclick's team we tried to nail-down the “job stories”. We asked ourselves why someone would hire Proxyclick to manage the company's visitors? What is the situation they don't want to be anymore? What is the burning motivation that's driving them to adopt a new way of doing things? We got these answers from  phone interviews with new Proxyclick users, who had recent the experience of researching for a way to manage the company's visitors.
 
-![Mario illustration turning into a Super Mario with our product](/images/work/pxc-supermario.png)
+![Mario illustration turning into a Super Mario with our product](/images/work/proxyclick/pxc-supermario.png)
 
 *Figure 1: Companies don't sell just products but the aspiration for people to do things better than before.*
 
 ## Result
 The result is a series of screens after sign-up that welcome and guide new users, while introducing them great product features that will be decisive for sticking with Proxyclick.
 
-![Sign up screen of the onboarding process](/images/work/pxc-onboarding-signup.png)
+![Sign up screen of the onboarding process](/images/work/proxyclick/pxc-onboarding-signup.png)
 
 *Figure 2: Asking only what is necessary.*
 
-![Personalised welcome](/images/work/pxc-onboarding-0.png)
+![Personalised welcome](/images/work/proxyclick/pxc-onboarding-0.png)
 
 *Figure 3: Personalised welcome, describing succinctly what's next.*
 
-![Form, asking for company details](/images/work/pxc-onboarding-1.png)
+![Form, asking for company details](/images/work/proxyclick/pxc-onboarding-1.png)
 
 *Figure 4: A company card is personalised while the user enters the company's details.*
 
-![Form filled in with company details](/images/work/pxc-onboarding-2.png)
+![Form filled in with company details](/images/work/proxyclick/pxc-onboarding-2.png)
 
 *Figure 5: Filled in company card with the company's logo and address.*
 
-![Sample email invitation](/images/work/pxc-onboarding-3.png)
+![Sample email invitation](/images/work/proxyclick/pxc-onboarding-3.png)
 
 *Figure 6: A sample email invitation when a meeting is scheduled.*
 
-![Opt-in for a kiosk](/images/work/pxc-onboarding-4.png)
+![Opt-in for a kiosk](/images/work/proxyclick/pxc-onboarding-4.png)
 
 *Figure 7: Kiosk: A key feature and important decision maker for choosing Proxyclick.*
 
-![Customizing kiosk](/images/work/pxc-onboarding-5.png)
+![Customizing kiosk](/images/work/proxyclick/pxc-onboarding-5.png)
 
 *Figure 8: Basic personalisation of the kiosk is already available from onboarding showing what's possible but also making users own their kiosk.*
 
