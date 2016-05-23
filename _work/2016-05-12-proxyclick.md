@@ -5,8 +5,8 @@ categories: work
 excerpt: What happens right after sign-up makes or breaks any web product. This is why, Proxyclick asked us how might we increase the likelihood that new users will successfully adopt their product...
 image-thumbnail: /images/work/proxyclick/proxyclick-thumbnail.jpg
 image-large: /images/work/proxyclick/proxyclick-large.png
-caseColor1: "#0D73E3"
-caseColor2: "#D5E5FC"
+caseColor1: "#E48104"
+caseColor2: "#FFB75D"
 ---
 
 ## The challenge

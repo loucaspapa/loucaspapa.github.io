@@ -6,7 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: loucas papantoniou
+title: "loucas<span class='hidden-xs'> </<span>papa<span class='hidden-xs'>ntoniou</<span>"
 subtitle: EMPATHETIC, CURIOUS &amp; FRIENDLY.
 email: loucaspapa@gmail.com
 description: UX Designer at Central. Leading design sprints, prototyping and testing, helping the team to continue creating thoughtfully considered digital interfaces.
