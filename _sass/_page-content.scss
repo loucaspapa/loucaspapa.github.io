@@ -8,10 +8,19 @@
 
 .page-heading {
    padding-top: 4em;
+   @include media-query($on-laptop) {
+     padding-top: 2em;
+   }
+   @include media-query($on-palm) {
+     padding-top: 1em;
+   }
     h1 {
       font-size: 2.25em;
       font-weight: 700;
-      color:$brand-color;
+      color:$text-color;
+      @include media-query($on-palm) {
+        font-size: 1.25em;
+      }
     }
 }
 

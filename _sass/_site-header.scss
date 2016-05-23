@@ -9,6 +9,9 @@
     border-top: 5px solid $brand-color;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
+    @include media-query($on-palm) {
+      padding-left: 15px;
+    }
 }
 
 #site-nav {
@@ -16,6 +19,7 @@
   justify-content:space-between;
   a {
     text-decoration: none;
+    align-self:middle;
     &:hover {
       text-decoration: underline;
     }
@@ -41,7 +45,7 @@
   li {
     font-size: 0.8em;
     display: inline-block;
-    align-self: center;
+    // align-self: center;
     margin-right: 1.3em;
     @include media-query($on-palm) {
       margin-right: 1em;
