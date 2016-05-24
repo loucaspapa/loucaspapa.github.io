@@ -11,9 +11,11 @@ Hi! I'm Loucas Papantoniou, aka [loucaspapa][2].
 
 I live and work in Brussels, Belgium, for [Central][2]; a close-knit, experienced, and multi-disciplinary team passionate about design.
 
-While we all in the team like to make our hands dirty with everything, whether it's code, design or copy, I'm responsible for the UX of our projects. What that means is that I usually take the lead of our design sprints, carry out user research and usability tests, draw the user flows and create prototypes. If you want to know more about my background, I'd suggest you have a look at my [linkedin][3] profile or simply [drop me a line][4].
+Jack of all trades, running the gamut of UX design responsibilities. Floating between high-level and in-the-weeds work and working with different disciplines, I like to serve as the glue that helps build sturdier projects.
 
-When I'm not designing, you'll probably find me doing one of the following: riding my bike, climbing, running, doing yoga, learning to make bread, cooking, or reading.
+Designer, biker, climber, runner, yogi, bread-making apprentice, cook and avid reader are all costumes I sometimes wear during the day.
+
+Feel free to [get in touch][4] if you pass by Brussels and want to have a coffee, or simply want to shoot a question. 
 
 <!--  References -->
 [1]: http://central.team/ "Central"
