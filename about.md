@@ -13,7 +13,7 @@ I live and work in Brussels, Belgium, for [Central][2]; a close-knit, experience
 
 Jack of all trades, running the gamut of UX design responsibilities. Floating between high-level and in-the-weeds work and working with different disciplines, I like to serve as the glue that helps build sturdier projects.
 
-Designer, biker, climber, runner, yogi, bread-making apprentice, cook and avid reader are all costumes I sometimes wear during the day.
+Designer, biker, climber, runner, yogi, bread-making apprentice, cook and avid reader are all costumes I wear sometimes during the day.
 
 Feel free to [get in touch][4] if you pass by Brussels and want to have a coffee, or simply want to shoot a question.
 
