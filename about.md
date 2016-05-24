@@ -15,7 +15,7 @@ Jack of all trades, running the gamut of UX design responsibilities. Floating be
 
 Designer, biker, climber, runner, yogi, bread-making apprentice, cook and avid reader are all costumes I sometimes wear during the day.
 
-Feel free to [get in touch][4] if you pass by Brussels and want to have a coffee, or simply want to shoot a question. 
+Feel free to [get in touch][4] if you pass by Brussels and want to have a coffee, or simply want to shoot a question.
 
 <!--  References -->
 [1]: http://central.team/ "Central"
