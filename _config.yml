@@ -5,7 +5,7 @@ email: loucaspapa@gmail.com
 description: "Product designer at Central; not a rockstar, a unicorn, a ninja or a magician. Design is for me a sense-making process in creating thoughtfully considered digital interfaces."
 # It's not about ideal solutions, but about the best possible compromises. There is too much clutter and bullshit in the world, so lets please avoid littering it with more…
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "loucaspapa.github.io" # the base hostname & protocol for your site
+url: "loucaspapa.org" # the base hostname & protocol for your site
 twitter_username: "follow me"
 central_url: "http://central.team/"
 
