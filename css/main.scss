@@ -10,7 +10,7 @@ $base-font-family: 'Alegreya', serif;
 $base-font-size:   22px;
 $second-font-family: 'Open Sans', sans-serif;
 $base-font-weight: 400;
-$small-font-size:  $base-font-size * 0.875;
+$on-palm-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
 $spacing-unit:     30px;
@@ -29,14 +29,12 @@ $on-palm:          600px;
 $on-laptop:        980px; //changed it from 800
 
 
+// need to fix my media queries
+// $on-palm:          22.72em; //500px
+// $medium:         34.54em; //760px
+// $on-laptop:          46.54em; //1024px
+// $xlarge:         51.81em; //1140px
 
-// Use media queries like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
 @mixin media-query($device) {
     @media screen and (max-width: $device) {
         @content;
