@@ -2,7 +2,7 @@
 title:  "Debating Europe"
 date:   2016-05-09
 categories: work
-excerpt: Debating Europe is a platform where citizens can debate the issues they care about with European politicians and experts...
+excerpt: Debating Europe is a platform where citizens can debate the issues they care about with European politicians and experts…
 image-thumbnail: /images/work/debating-europe/debatingeurope-thumbnail.jpg
 image-large: /images/work/debating-europe/debatingeurope-large.png
 caseColor1: "#5A6CF3"

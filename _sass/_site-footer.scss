@@ -13,6 +13,9 @@
     display: flex;
     justify-content: space-between;
   }
+  li:first-of-type {
+    text-decoration: lowercase;
+  }
   li {
     display: inline-block;
   }

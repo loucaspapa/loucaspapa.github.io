@@ -2,7 +2,7 @@
 title:  "Onboarding new Proxyclick users"
 date:   2016-05-13
 categories: work
-excerpt: What happens right after sign-up makes or breaks any web product. This is why, Proxyclick asked us how might we increase the likelihood that new users will successfully adopt their product...
+excerpt: What happens right after sign-up makes or breaks any web product. This is why, Proxyclick asked us how might we increase the likelihood that new users will successfully adopt their product…
 image-thumbnail: /images/work/proxyclick/proxyclick-thumbnail.jpg
 image-large: /images/work/proxyclick/proxyclick-large.png
 caseColor1: "#E48104"

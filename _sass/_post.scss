@@ -19,11 +19,13 @@
     font-size: 3em;
     line-height: 1.24;
     color: #3A3A3A;
+    margin-bottom: $spacing-unit*2;
     @include media-query($on-laptop) {
         font-size: 2em;
     }
     @include media-query($on-palm) {
         font-size: 1.5em;
+        margin-bottom: $spacing-unit;
     }
 }
 
@@ -55,6 +57,7 @@
       color: $grey-color;
       font-size:0.9em;
       margin-bottom: $spacing-unit;
+      line-height: 1em;
     }
 
     blockquote {
