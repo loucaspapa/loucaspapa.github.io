@@ -15,7 +15,7 @@
 
     #site-nav {
       display: flex;
-      justify-content:space-between;
+      justify-content:space-around;
 
       .site-title {
           font-size: 1.2em;
@@ -56,6 +56,7 @@
  * Media Queries
  */
 
+
  @include media-query($on-palm) {
 
    .site-header {
@@ -68,7 +69,7 @@
 
      .site-title {
         font-size: 1.1em;
-        line-height: 1.4;
+        line-height: 1.4em;
      }
 
      li {
@@ -78,5 +79,6 @@
    }
 
  }
+
 
 }
