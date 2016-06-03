@@ -10,8 +10,12 @@
   justify-content: center;
   margin-left: 0;
 
+  @include media-query($medium) {
+    padding-top: 1.5em;
+  }
+
   @include media-query($small) {
-    padding-top: 1em;
+    padding-top:0;
   }
 
   li {

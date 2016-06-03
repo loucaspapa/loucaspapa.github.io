@@ -11,7 +11,7 @@
   }
 
   @include media-query($small) {
-    padding: 1em 0;
+    padding: 0;
   }
 
   .site-tagline {

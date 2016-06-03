@@ -13,7 +13,16 @@
 }
 
 .page-heading {
-   padding-top: $spacing-unit;
+   padding-top: 3em;
+
+   @include media-query($medium) {
+     padding-top: 1.5em;
+   }
+
+   @include media-query($small) {
+     padding-top: 0;
+   }
+
 }
 
 .page-title {
