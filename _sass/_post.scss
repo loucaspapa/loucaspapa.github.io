@@ -3,15 +3,11 @@
  */
 
 .post-header {
-    padding-top: 2em;
-    // margin-bottom: $spacing-unit;
-    @include media-query($on-palm) {
-        padding-top: 1.5em;
+    padding-top: $spacing-unit*2;
+    margin-bottom: $spacing-unit;
+    @include media-query($small) {
+        padding-top: $spacing-unit;
     }
-}
-
-.post-cover {
-  margin-bottom:$spacing-unit;
 }
 
 .post-title {
@@ -19,14 +15,14 @@
     font-size: 3em;
     line-height: 1.24;
     color: #3A3A3A;
-    margin-bottom: $spacing-unit*2;
-    @include media-query($on-laptop) {
-        font-size: 2em;
-    }
-    @include media-query($on-palm) {
+    margin-bottom: 0;
+    @include media-query($small) {
         font-size: 1.5em;
-        margin-bottom: $spacing-unit;
     }
+}
+
+.post-cover {
+  margin-bottom:$spacing-unit;
 }
 
 .post-content {
@@ -36,11 +32,6 @@
         font-size: 1.5em;
         font-weight: 700;
         line-height: 1.24;
-
-        @include media-query($on-laptop) {
-            font-size: 28px;
-            font-size: 1.2em;
-        }
     }
 
     h3 {
@@ -48,9 +39,6 @@
         font-weight: 700;
         color: $grey-color;
 
-        @include media-query($on-laptop) {
-            font-size: 22px;
-        }
     }
 
     em {
@@ -75,16 +63,9 @@
       list-style-type:disc;
     }
 
-    // img {
-    //   text-align: center;
-    //   border: 1px solid #ccc;
-    // }
+    img {
+       text-align: center;
+      //  border: 1px solid #ccc;
+    }
 
-    // h4 {
-    //     font-size: 20px;
-    //
-    //     @include media-query($on-laptop) {
-    //         font-size: 18px;
-    //     }
-    // }
 }

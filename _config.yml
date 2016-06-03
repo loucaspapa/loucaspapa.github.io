@@ -20,6 +20,9 @@ collections:
   work:
     output: true
     permalink: /work/:title/
+  notes:
+    output: true
+    permalink: /notes/:title/
 
 # Defaults front matter variables for various types
 # http://jekyllrb.com/docs/configuration/#front-matter-defaults
@@ -38,3 +41,10 @@ defaults:
     values:
       layout: work
       currentNav: work
+  -
+    scope:
+      path: ""
+      type: "note"
+    values:
+      layout: note
+      currentNav: notes

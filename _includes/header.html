@@ -1,14 +1,15 @@
 <!-- Capture and store a URL -->
 <!-- {% capture location %} {{ page.url | split:'/' }}{% endcapture %} -->
 
-<header class="site-header">
+<header id="site-header">
 
-    <nav id="site-nav">
+    <nav class="site-nav">
       <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
 
       <ul class="nav">
         <li class="nav__item"><a href="{{ site.baseurl }}/">Work</a></li>
         <li class="nav__item"><a href="{{ site.baseurl }}/articles">Articles</a></li>
+        <li class="nav__item"><a href="{{ site.baseurl }}/notes">Notes</a></li>
         <li class="nav__item"><a href="{{ site.baseurl }}/about">About</a></li>
       </ul>
     </nav>

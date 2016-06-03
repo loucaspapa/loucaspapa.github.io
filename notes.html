@@ -1,0 +1,25 @@
+---
+layout: default
+title: Articles
+---
+
+<div class="home">
+
+  <div class="wrapper">
+
+    <ul class="notes-list">
+      {% assign sorted = (site.notes | sort: 'date') | reverse %}
+      {% for note in sorted %}
+        <li>
+          <h3 class="note-title">
+            {{ note.title }}
+          </h3>
+          <span class="note-meta">{{ note.date | date: "%b %-d, %Y" }}</span>
+          <p> {{ note.excerpt }} </p>
+        </li>
+      {% endfor %}
+    </ul>
+
+  </div>
+
+</div>

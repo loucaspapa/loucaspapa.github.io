@@ -1,84 +1,71 @@
-/**
- * Site header
- */
-.site-header {
-    padding: 1.125em 3em 1.125em 1.5em;
-    font-family: $second-font-family;
-    text-transform: uppercase;
-    font-weight: 700;
-    border-top: 5px solid $brand-color;
-    border-bottom: 1px solid $grey-color-light;
-    min-height: 56px;
-    a:first-of-type{
-      text-decoration: none;
-    }
+// -------------------------------------
+// site-header
+// -------------------------------------
 
-    #site-nav {
-      display: flex;
-      justify-content:space-around;
+#site-header {
+  padding: 1.125em 0;
+  font-family: $second-font-family;
+  text-transform: uppercase;
+  border-top: 5px solid $brand-color;
+  border-bottom: 1px solid $grey-color-light;
+  min-height: 56px;
 
-      .site-title {
-          font-size: 1.2em;
-          font-weight: 300;
-          line-height: 56px;
-          align-self: center;
-          // @include media-query($on-laptop) {
-          //   align-self: left;
-          // }
-      }
+  a:first-of-type {
+    text-decoration: none;
+  }
 
-      .nav {
-        margin: 0;
-        align-self: center;
+  @include media-query($small) {
+    display: flex;
+    margin-bottom: $spacing-unit;
+  }
 
-        ul {
-          display: flex;
-          justify-content: space-between;
-        }
-
-        li {
-          font-size: 0.8em;
-          display: inline-block;
-          padding: 0 10px;
-          a {
-            text-decoration: none;
-            &:hover {
-            text-decoration: underline;
-            }
-        }
-
-      }
-
-    }
 }
 
-/**
- * Media Queries
- */
+.site-nav {
+  display: flex;
+  justify-content:space-around;
 
+  @include media-query($small) {
+    flex-direction: column;
+    margin: 0 auto;
+  }
 
- @include media-query($on-palm) {
+  .site-title {
+    font-size: 1.2em;
+    font-weight: 400;
+    line-height: 56px;
+    align-self: center;
 
-   .site-header {
-     display: flex;
-   }
+  }
 
-   #site-nav {
-     flex-direction: column;
-     margin: 0 auto;
+  .nav {
+    margin-left: 0;
+    margin-bottom: 0;
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8em;
+    
+    @include media-query($small) {
+      margin-bottom: $spacing-unit;
+    }
 
-     .site-title {
-        font-size: 1.1em;
-        line-height: 1.4em;
-     }
+    .nav__item {
+      display: inline-block;
+      padding: 0 10px;
+      font-weight: 700;
 
-     li {
-       font-size: 0.7em;
-     }
+      a {
+        text-decoration: none;
 
-   }
+        &:hover {
+        text-decoration: underline;
+        }
 
- }
+      }
 
+    }
+
+  }
 
 }

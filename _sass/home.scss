@@ -1,80 +1,74 @@
-/**
- * Home (work)
- */
+// -------------------------------------
+// Home (work)
+// -------------------------------------
+
 
 .site-banner {
-  padding: 4em 0;
-  h1 {
-    font-weight: 900;
-    font-size: 2.5em;
-    line-height: 1.25em;
-    color: $brand-color;
-  }
-  p {
-    font-size: 1.4em;
+  padding: 3em 0;
+
+  @include media-query($medium) {
+    padding: 2em 0;
   }
 
-  @include media-query($on-palm) {
-      padding: 1em 0;
-      h1 {
-        font-size: 1.25em;
-        line-height: 1.25em;
-      }
-      p {
-        font-size: 1em;
-      }
+  @include media-query($small) {
+    padding: 1em 0;
   }
-  @include media-query($on-laptop) {
-    padding:2em 0;
+
+  .site-tagline {
+    font-weight: 900;
+    line-height: 1.25;
+    color: $brand-color;
   }
+
 }
 
 
 .work-list {
+
   margin-left: 0;
+
   li:first-of-type {
     border-top: 1px solid $grey-color-light;
   }
+
   .list-heading {
-    font-size: 1em;
     font-weight: 700;
     text-transform: uppercase;
-    margin-bottom: $spacing-unit/2;
   }
+
   .list-item {
     display: flex;
     padding: 4% 0;
     border-bottom: 0.5px solid $grey-color-light;
-  }
-  .list-image{
-    width:40%;
-    flex-grow:1;
-    a img:hover {
-      transition: opacity 0.2s ease-out;
-    }
-  }
-  .list-description{
-    width:60%;
-    align-self: center;
-    padding-left: 5%;
-  }
 
-}
-
-@include media-query($on-palm) {
-  .work-list {
-    .list-heading {
-      font-size: 1em;
-    }
-    .list-item{
+    @include media-query($small) {
       flex-wrap:wrap;
       width: 100%;
     }
-    .list-description{
-      font-size: 0.9em;
+
+  }
+
+  .list-image {
+    width:40%;
+    flex-grow:1;
+
+    a img:hover {
+      transition: opacity 0.2s ease-out;
+    }
+
+  }
+
+  .list-description {
+    width:60%;
+    align-self: center;
+    padding-left: 5%;
+
+    @include media-query($small) {
       width:100%;
       margin: 1em 0;
       padding-left: 0;
     }
+
   }
+
 }

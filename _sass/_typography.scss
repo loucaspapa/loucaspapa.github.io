@@ -1,0 +1,50 @@
+// -------------------------------------
+// typography
+// -------------------------------------
+
+h1 {
+  font-size: 3em; //22px*3=66px
+
+  @include media-query($medium) {
+    font-size: 2em; //22px*2=44px
+  }
+
+  @include media-query($small) {
+    font-size: 1.5em; //19px*1.5=28px
+  }
+
+}
+
+h2 {
+  font-size: 2em; //22px*2=44px
+
+  @include media-query($small) {
+    font-size: 1.25em; //19px*1.25=23.75px
+  }
+
+}
+
+h3 {
+  font-size: 1.5em; //22px*1.5=33px
+
+  @include media-query($small) {
+    font-size: 1.15em; //19px*1.15=22px
+  }
+
+}
+
+.lead {
+  font-size: 1.4em;
+  line-height: 1.5;
+
+  @include media-query($medium) {
+    font-size: 1.2em; //22px*1.2=26px
+    line-height: 1.4;
+  }
+
+  @include media-query($small) {
+    font-size: 1.15em; //22px
+    line-height: 1.3;
+  }
+
+}

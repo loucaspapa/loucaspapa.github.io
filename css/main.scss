@@ -10,7 +10,7 @@ $base-font-family: 'Alegreya', serif;
 $base-font-size:   22px;
 $second-font-family: 'Open Sans', sans-serif;
 $base-font-weight: 400;
-$on-palm-font-size:  $base-font-size * 0.875;
+$small-font-size:  $base-font-size * 0.875; // 19px
 $base-line-height: 1.5;
 
 $spacing-unit:     30px;
@@ -25,14 +25,15 @@ $grey-color-dark:  darken($grey-color, 25%);
 
 // Width of the content area
 $content-width:    800px;
-$on-palm:          600px;
-$on-laptop:        980px; //changed it from 800
+$small:            600px;
+$medium:           800px;
+$large:            980px; //changed it from 800
 
 
 // need to fix my media queries
-// $on-palm:          22.72em; //500px
+// $small:          22.72em; //500px
 // $medium:         34.54em; //760px
-// $on-laptop:          46.54em; //1024px
+// $large:          46.54em; //1024px
 // $xlarge:         51.81em; //1140px
 
 @mixin media-query($device) {
@@ -41,16 +42,16 @@ $on-laptop:        980px; //changed it from 800
     }
 }
 
-
-
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",
+        "typography",
         "home",
         "articles",
         "layout",
         "page-content",
         "post",
+        "notes",
         "site-header",
         "site-footer",
         "syntax-highlighting"
