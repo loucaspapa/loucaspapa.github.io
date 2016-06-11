@@ -153,7 +153,7 @@ If you’ve read till here it either means you liked our story, in which case yo
 
 ***
 
-This story was [first published on Medium][9] for Central
+This story was [first published on Medium][9] for Central.
 
 
 <!-- References -->

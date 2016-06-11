@@ -32,6 +32,11 @@ If you want to dig deeper into the subject, [styleguides.io][1] is the ultimate 
 
 We know it’s not easy to make a Style Guide an integral part of your development flow. It is often a cultural challenge and a technological one. But hey, that’s why [we’re here to help][6]!
 
+***
+
+This article was first published on [Medium](https://blog.central.team/dear-client-here-s-why-you-need-a-style-guide-c84ec96f7648#.uzy3s9ezh) for Central.
+
+
 <!--  References-->
 [1]: http://styleguides.io/ "Styleguides"
 [2]: http://futurefriendlyweb.com/index.html "Future Friendly Web"
