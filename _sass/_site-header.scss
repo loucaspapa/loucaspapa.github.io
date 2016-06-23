@@ -45,9 +45,9 @@
     display: flex;
     justify-content: space-between;
     font-size: 0.8em;
-    
+
     @include media-query($small) {
-      margin-bottom: $spacing-unit;
+      margin-bottom: 0;
     }
 
     .nav__item {
