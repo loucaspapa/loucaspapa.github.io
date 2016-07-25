@@ -7,12 +7,12 @@ layout: default
 
     <header class="note-header">
       <h1 class="note-title" itemprop="name headline">{{ page.title }}</h1>
-      <p class="note-meta"><time datetime="{{ note.date | date_to_xmlschema }}" itemprop="datePublished">{{ note.date | date: "%b %-d, %Y" }}</time>
+      <p class="note-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
       </p>
     </header>
 
-    {% if note.image %}
-    <img class="note-cover" src="{{ note.image }}" alt="">
+    {% if page.image %}
+    <img class="note-cover" src="{{ page.image }}" alt="">
     {% endif %}
 
     <div class="note-content" itemprop="noteBody">

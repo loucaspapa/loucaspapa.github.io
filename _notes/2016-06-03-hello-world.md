@@ -1,6 +1,5 @@
 ---
 title:  "Hello World!"
-date:   2016-06-03
 categories: note
 ---
 

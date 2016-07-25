@@ -11,6 +11,7 @@ central_url: "http://central.team/"
 
 # Build settings
 markdown: kramdown
+exclude: [/node_modules]
 
 # posts permalink
 permalink: /posts/:title/
@@ -21,8 +22,6 @@ collections:
     output: true
     permalink: /work/:title/
   notes:
-    output: true
-    permalink: /notes/:title/
 
 # Defaults front matter variables for various types
 # http://jekyllrb.com/docs/configuration/#front-matter-defaults
@@ -44,7 +43,7 @@ defaults:
   -
     scope:
       path: ""
-      type: "note"
+      type: "notes"
     values:
       layout: note
       currentNav: notes
