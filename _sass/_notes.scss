@@ -18,8 +18,12 @@
     padding-top: 0;
   }
 
-  li {
-    margin-bottom: $spacing-unit;
+  ul li {
+    list-style:disc;
+  }
+
+  ol li {
+    list-style: decimal;
   }
 
   .note-title {

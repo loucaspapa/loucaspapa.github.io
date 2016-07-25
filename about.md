@@ -7,6 +7,7 @@ image: /images/about/profile-photo.jpg
 
 ![profile photo of loucaspapa](/images/about/profile-photo.jpg)
 
+<br>
 Hi! I'm Loucas Papantoniou, aka [loucaspapa][2].
 
 I live and work in Brussels, Belgium, for [Central][2]; a close-knit, experienced, and multi-disciplinary team passionate about design.
