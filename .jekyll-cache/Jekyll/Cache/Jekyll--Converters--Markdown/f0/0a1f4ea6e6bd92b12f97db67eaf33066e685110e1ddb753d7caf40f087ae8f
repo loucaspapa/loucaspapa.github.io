@@ -1,0 +1,35 @@
+I"n<p><a href="https://twitter.com/bdc" title="Benjamin De Cock's twitter account">Benjamin De Cock</a>, user interface designer at <a href="https://stripe.com/be" title="Stripe">Stripe</a> and <a href="https://twitter.com/mengto">Meng To</a>, writer of the <a href="https://designcode.io/" title="Design + Code">Design+Code</a> book gave us the other day two very nice talks at the Design ♡ Code mini conference, organised by <a href="https://www.facebook.com/lafeweb" title="Feweb">Feweb</a> in Brussels.</p>
+
+<p>The theme of the talks was around the — still?— ongoing debate “Should designers code?” The answer was — of course — a unanimous Yes!</p>
+
+<p><img src="/images/articles/design-loves-code/benjamin.jpeg" alt="Benjami De Cock" /></p>
+
+<p><em>Figure 1: Benjamin De Cock (photo by <a href="https://twitter.com/pvermaer" title="Pvermaer's twitter account">@pvermaer</a>)</em></p>
+
+<p>Benjamin talked about his work at Stripe and his side-project UIlang.com, an educational tool Benjamin built to de-dramatize coding to designers. Benjamin’s thesis is straightforward; coding helps you as a designer stay true to your vision, while it makes things faster. As a designer you don’t need to communicate your mockups to a developer, neither to rely on the developer’s interpretations. You build your idea yourself.</p>
+
+<p><img src="/images/articles/design-loves-code/fucked-up-painting.jpeg" alt="Relying on interpretations" /></p>
+
+<p><em>Figure 2: What happends when relying on interpretations)</em></p>
+
+<p><img src="/images/articles/design-loves-code/meng-to.jpeg" alt="" /></p>
+
+<p><em>Figure 3: Meng To (photo by <a href="https://twitter.com/pvermaer" title="Pvermaer's twitter account">@pvermaer</a>)</em></p>
+
+<p>Meng To talked about his <a href="https://designcode.io/story" title="Meng To's personal story">personal story</a>. He dropped out college, to be a Web designer. Worked hard in the Valley to make it, only to be denied his Visa because he didn’t have a college degree. With nothing to lose, he packed his things and went <a href="http://blog.mengto.com/traveling-designing/" title="Meng to travelling">traveling</a> around the world. To make ends meet he worked as a freelancer, and started writing Design+Code, his successful book teaching designers how to design with <a href="http://bohemiancoding.com/" title="Boheamian Coding">Sketch</a> and code with <a href="https://developer.apple.com/swift/" title="Swift">Swift</a>, to create quick prototypes of their ideas.</p>
+
+<p>So far, Meng To has sold more than 13.000 copies of his book, helping out 6 young readers of his book to earn a scholarship for the <a href="https://developer.apple.com/wwdc/" title="WWDC">WWDC</a>, while making this year his first $1.000.000. An impressive story — to say the least — that wouldn’t have been possible according Meng To without coding.</p>
+
+<blockquote>
+  <p>“Code is a design tool. It’s like pushing pixels with words.” — Meng To</p>
+</blockquote>
+
+<p>Coding made it possible for him to set up <a href="https://parse.com/" title="Parse">Parse</a>, and Stripe payments for his book, paying a mere 2,9% on commission fees compared to the 30% commission Apple Store charges.</p>
+
+<p>The conclusion was clear. Code made it possible both for Meng To and Benjamin de Cock to be autonomous and be able to be master their tools. Without a bit of coding they wouldn’t have made it this far. Wouldn’t you want the same?</p>
+
+<hr />
+<p>This article was originally published on <a href="https://blog.central.team/design-code-e18dfc061517#.8g20b8sqx" title="Article on Medium">Medium</a> for Central.</p>
+
+<!-- References -->
+:ET
